@@ -1,5 +1,5 @@
 {
-    "name": "guiguiboy/php-cli-progress-bar",
+    "name": "glauberkyves/php-cli-progress-bar",
     "license": "MIT",
     "version": "0.0.4",
     "description": "Progress bar for PHP CLI scripts",
