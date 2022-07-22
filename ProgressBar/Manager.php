@@ -28,6 +28,12 @@ EOF;
      */
     protected $replacementRules = array();
 
+    public function __set(string $name, mixed $value){
+        if($name == 'total'){
+            $this->registry->setValue('max', $value);
+        }
+    }
+
     /**
      * Class constructor
      */
